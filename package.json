@@ -1,0 +1,30 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/google": "4.0.87",
+    "ai": "7.0.127",
+    "ink": "8.0.0",
+    "ink-select-input": "6.2.0",
+    "ink-spinner": "5.0.0",
+    "ink-text-input": "6.0.0",
+    "react": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.tsx",
+    "build": "tsc src/cli.tsx --outDir dist",
+    "start": "node dist/cli.js"
+  }
+}
